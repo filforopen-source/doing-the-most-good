@@ -1,0 +1,5 @@
+docker compose \
+  -f docker-compose.base.yml \
+  -f docker-compose.physical.override.yml \
+  -f docker-compose.portainer.override.yml \
+  config
